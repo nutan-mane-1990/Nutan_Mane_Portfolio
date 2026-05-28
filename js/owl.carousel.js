@@ -3446,3 +3446,14 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+
+function showImage() {
+
+    const img = document.getElementById("qualificationImage");
+
+    if (img.style.display === "none" || img.style.display === "") {
+        img.style.display = "block";
+    } else {
+        img.style.display = "none";
+    }
+}
